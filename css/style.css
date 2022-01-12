@@ -74,6 +74,7 @@ header {
 section
 {
     height: 100vh;
+    padding-bottom: 1px;
     
 }
 
@@ -176,7 +177,7 @@ section
 .segunda-seccion {
    background: url("../img/fondo/fondoWeb.jpg");
    background-size: cover;
-   z-index: 1;
+   /* z-index: 1; */
 }
 .fondo-gradiente {
     position: relative;
