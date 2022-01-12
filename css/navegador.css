@@ -1,0 +1,177 @@
+html 
+{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::after, *::before
+{
+    box-sizing: inherit; 
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+nav
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 6vh;
+    /* height: 72px; */
+    background: rgba(124, 42, 21, 1);
+    transition: 0.5s;
+
+}
+
+
+
+.ham {
+    display:none;
+    cursor:pointer;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    
+}
+
+
+
+.ham span {
+    display: block;
+    background-color: #f3f3f3;
+    height: 3px;
+    width: 28px;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+.enlaces-menu {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+
+.enlaces-menu li {
+    padding: 0 40px;
+    list-style-type: none;
+}
+
+.enlaces-menu li a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #f3f3f3;
+    font-weight: 600;
+
+}
+
+.enlaces-menu li a:hover {
+    background-color: rgb(142,130,197);
+}
+
+@keyframes muestraMenu {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.enlaces-menu.activado {
+    display:flex;
+    animation: muestraMenu 350ms ease-in-out both;
+}
+
+.br-1.animado{
+    transform: rotate(-45deg) translate(-10px, 8px);
+}
+.br-2.animado{
+    opacity: 0;
+}
+.br-3.animado{
+    transform: rotate(45deg) translate(-10px, -8px);
+}
+
+/* Fin de la pate de menu de navegacion + boton de hamburguesa */
+
+
+@media(max-width: 450px)
+{
+
+    body {
+        overflow: hidden;
+    }
+
+    .ham {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 25px;
+    
+    }
+  
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 25px 0;
+    }
+
+    .enlaces-menu {
+        background-color: black;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:center;
+        height: 32vh;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: none;
+        opacity: 0;
+    }
+
+    .enlaces-menu li {
+        width: 100%;
+        text-align: end;
+        padding: 20px;
+    }
+
+
+
+    .primera-seccion {
+        background: url(../img/fondo/heroMobile.jpg)center center;
+        background-size: cover;
+    }
+}
+
+
+
+
+/* 
+<header>
+<nav id="nav-scroll">
+    
+    <div class="d-flex">
+        <img class="logo-img img-fluid" height="64" width="32" src="img/logo/truckCenterSVG.svg" alt="logo">
+        <a href="#">TRUCK CENTER</a>
+    </div>
+
+
+    <ul class="enlaces-menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Para tu vehiculo</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul>
+    <button class="ham" type="button">
+        <span class="br-1"></span>
+        <span class="br-2"></span>
+        <span class="br-3"></span>
+    </button>
+</nav>
+</header> */
