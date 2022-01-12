@@ -1,0 +1,197 @@
+html 
+{
+
+    box-sizing: border-box;
+}
+
+*, *::after, *::before
+{
+    box-sizing: inherit; 
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* seccion de Encabezado */
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    background-color: #7c2a15;
+    transition: 0.2s;
+}
+
+
+.logo {
+    color: #1a1e2d!important;
+    font-size: xx-large;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+
+.ham span {
+    display: block;
+    background-color: #f3f3f3;
+    height: 3px;
+    width: 40px;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+
+#navbarSupportedContent{
+    color: white;
+    padding-right: 20px;
+    font-weight: 600;
+
+    
+ 
+}
+#navbarSupportedContent a 
+{
+    
+    transition: 0.1s;
+    color: white;
+    
+}
+#navbarSupportedContent a:hover
+{    
+  box-shadow: inset 0px -2px 0px 0px #eb8d07;
+  transition: 0.1s;  
+}
+
+
+/* Fin seccion de Encabezado */
+
+section
+{
+    height: 100vh;
+    padding-bottom: 1px;
+    
+}
+
+
+
+
+/* Inicio de primera seccion */
+
+.primera-seccion
+{
+    height: 100;
+    background: url("../img/fondo/heroDesktop.jpg");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    /* text-align: center; */
+    padding-top: 12vh;
+}
+
+.primera-seccion .logo-img{
+    display: none;
+}
+
+.contenedor-primera  {
+    /* margin-left: 400px; */
+    font-size: xx-large!important;
+}
+
+.carrusel {
+    
+    margin: 30px;
+    background-color: rgba(26, 30, 45, 0.7);
+    width: 100%;
+    justify-content: center;
+    border: 1px solid #7c2a15;
+    align-items: center;
+    
+}
+
+.carrusel p {
+    overflow: hidden;
+
+    margin: auto 0.5em;
+    padding: 15px 4rem;
+    font-size: x-large;
+    font-weight: 600;
+        -webkit-text-fill-color: white;
+        -webkit-text-stroke: 1px black ;
+        transition: 0.5s;
+        
+}
+
+.carrusel p:hover {
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px #eb8d07 ;
+    transition: 1s;
+}
+
+
+#carouselExampleSlidesOnly {
+    color: white;
+    margin:auto;
+    padding: auto;
+    background-color: rgba(26, 30, 45, 0.7);
+    width: 100%;
+    border: 1px solid #7c2a15;
+
+}
+
+#carouselExampleSlidesOnly p {
+    font-size: x-large;
+    font-weight: 600;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px black ;
+  /* background-color: red; */
+  padding:  10px;
+}
+
+
+.boton button {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: xx-large;
+    border-radius: 28px;
+    background-color: #e89128;
+    border:   2px solid #7c2a15;
+    margin-top: 300px;
+}
+
+
+
+/* Final de primera seccion */
+
+
+/* Inicio de segunda seccion */
+
+.segunda-seccion {
+   background: url("../img/fondo/fondoWeb.jpg");
+   background-size: cover;
+   /* z-index: 1; */
+}
+.fondo-gradiente {
+    position: relative;
+    z-index: 2;
+    background: url("../img/fondo/fondoGradianteSVG.svg") center center !important;
+    background-size: cover;
+    /* height: 100%; */
+    /* opacity: 0.5; */
+}
+
+.segunda-seccion p{
+    color: white;
+
+}
+
+/* Final de segunda seccion */
+

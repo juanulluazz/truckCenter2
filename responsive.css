@@ -1,0 +1,55 @@
+@media(max-width: 450px)
+{
+
+   
+
+    header {
+        background-color: rgba(124, 42, 21, 0.8)!important;
+        
+        
+    }
+
+  
+
+    .logo {
+        color: white!important;
+        font-weight: 600;
+        font-size: x-large;
+        letter-spacing: 1px;
+        
+    }
+
+  
+    .hamburguesa li a {
+        color: #e89128!important;
+    }
+
+    
+    .primera-seccion {
+        background: url(../img/fondo/heroMobile.jpg)center center;
+        background-size: cover;
+    }
+
+    .primera-seccion .logo-img {
+        display: block;
+    }
+
+    .carrusel {
+        display: none!important;
+    }
+
+    .boton button {
+        font-weight: 700;
+        font-size: x-large;
+        margin-top:auto;
+
+    }
+
+    /* Segunda Seccion */
+
+    .segunda-seccion {
+        text-align: center;
+    }
+
+
+}
