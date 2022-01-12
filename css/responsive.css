@@ -26,6 +26,7 @@
 
     
     .primera-seccion {
+        height: auto;
         background: url(../img/fondo/heroMobile.jpg)center center;
         background-size: cover;
     }

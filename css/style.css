@@ -74,7 +74,8 @@ header {
 section
 {
     height: 100vh;
-    padding-bottom: 1px;
+    /* height: auto; */
+    /* padding-bottom: 1px; */
     
 }
 
@@ -138,8 +139,6 @@ section
 
 #carouselExampleSlidesOnly {
     color: white;
-    margin:auto;
-    padding: auto;
     background-color: rgba(26, 30, 45, 0.7);
     width: 100%;
     border: 1px solid #7c2a15;
@@ -152,7 +151,9 @@ section
     -webkit-text-fill-color: white;
     -webkit-text-stroke: 1px black ;
   /* background-color: red; */
-  padding:  10px;
+  /* padding:  10px; */
+  padding: 10px;
+  margin: auto;
 }
 
 
