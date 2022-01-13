@@ -50,7 +50,33 @@
 
     .segunda-seccion {
         text-align: center;
+        margin: auto;
     }
 
+    .segunda-seccion p{
+        font-size: 1.5rem;
+    }
+    .segunda-seccion .logo-img {
+        width: 120px;
+        margin: 2rem auto;
+    }
+
+    /* Tercera Seccion */
+
+.tercera-seccion {
+    /* background: white; */
+}
+
+    .ocultar {
+        display: none;
+    }
+
+    .tercera-seccion .carrusel-productos  {
+        height: 150px;
+        margin-bottom: 100px!important;
+        text-align: center;
+        /* padding-bottom: 300px!important; */
+     
+    }
 
 }
