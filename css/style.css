@@ -175,7 +175,7 @@ section
 
 /* Inicio de segunda seccion */
 
-.segunda-seccion, .tercera-seccion {
+.segunda-seccion, .tercera-seccion, .cuarta-seccion {
    background: url("../img/fondo/fondoWeb.jpg");
    background-size: cover;
    /* z-index: 1; */
@@ -183,7 +183,7 @@ section
 .fondo-degradado {
     /* z-index: 2; */
     background: url("../img/fondo/fondoGradianteSVG.svg") ;
-    /* background-size: cover; */
+    background-size: cover;
     /* height: 100%; */
     opacity: 0.9;
 }
@@ -233,3 +233,123 @@ section
 } */
 
 /* Fin de la Tercera Seccion */
+
+/* Inicio de la Cuarta Seccion */
+
+.cuarta-seccion p{
+    color: black;
+}
+
+.cuarta-seccion h3 {
+    font-weight: 700;
+    display: inline;
+    border-bottom: 2px solid black;
+    color: white;
+}
+
+
+.cuarta-seccion .boton2 button {
+    font-family: 'Noto Sans', sans-serif;
+    color: #e89128;
+    font-weight: 700;
+    font-size: xx-large;
+    border-radius: 22px;
+    background-color: rgba(26, 30, 45, 1);
+    
+}
+
+.fondo-degradado2 {
+    /* z-index: 2; */
+    background:  rgba(198, 141, 72, 0.9);
+    background-size: cover;
+    border: 3px solid #7c2a15;
+    box-shadow: 0px 10px 10px -6px black!;    
+
+}
+
+/* Fin de la Cuarta Seccion */
+
+
+/* Inicio de la Quinta Seccion */
+
+
+.quinta-seccion {
+    background: url("../img/fondo/fondoWeb.jpg");
+   background-size: cover;
+}
+
+.quinta {
+    color: #1a1e2d;
+    font-size: 1.8rem;
+}
+
+.fondo-degradado3 {
+    /* z-index: 2; */
+    background:  rgba(255, 225, 189, 0.6);
+    background-size: cover;
+    height: 100%;
+
+}
+.caja {
+    border: 1px solid #7c2a15;
+    border-radius: 22px;
+    background: rgba(49, 52, 60, 0.6);
+    width: 200px;
+    padding-top: 20px;
+    color: white;
+    font-weight: 700;
+    line-height: 100%;    
+    /* margin-left: 50px; */
+    box-shadow: 0px 10px 10px -6px black;
+}
+
+.caja p {
+    padding-top: 10px;
+}
+
+.caja:hover {
+    transform: scale(1.25);
+}
+
+
+
+/* Fin de la Quinta Seccion */
+
+
+/* Inicio del Footer  */
+
+
+#derechos {
+	background-color: #050033;
+	padding: 0;
+	height: 52px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#derechos p {
+	margin: 0;
+	text-align: center;
+	color: #426184;
+	font-size: 15px;
+}
+
+#derechos p span {
+	color: white;
+}
+
+#derechos p a {
+	color: #426184;
+    border-bottom: none; 
+}
+
+#derechos p a img {
+	width: 20px;
+	margin-top: 4px;
+}
+/* Mobile */
+
+
+/* Fin del Footer*/

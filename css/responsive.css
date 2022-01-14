@@ -63,9 +63,6 @@
 
     /* Tercera Seccion */
 
-.tercera-seccion {
-    /* background: white; */
-}
 
     .ocultar {
         display: none;
@@ -79,4 +76,41 @@
      
     }
 
+
+    /* Cuarta Seccion */
+
+    .cuarta-seccion .boton2  button{
+        margin: none;
+        text-align: none;
+        
+    }
+
+
+    /* Quinta Seccion */
+
+ 
+
+    .quinta  p{
+        padding-top: 10px;
+        text-align: start;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+    .quinta h2 {
+        color: white;
+    }
+
+    .caja {
+        width: 100%;
+        
+    }
+
+
+}
+
+
+@media(max-width: 1000px) {
+    .ocultar {
+        display: none;
+    }
 }
