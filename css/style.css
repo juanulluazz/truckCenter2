@@ -175,6 +175,7 @@ section
 
 /* Inicio de segunda seccion */
 
+
 .segunda-seccion, .tercera-seccion, .cuarta-seccion {
    background: url("../img/fondo/fondoWeb.jpg");
    background-size: cover;
@@ -212,25 +213,39 @@ section
     box-shadow: inset 3px 0px 0px 0px black;
     padding: 10px;
     color: black;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
 
+
+}
+
+.tercera-seccion p {
+    color:black;
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+.tercera-seccion .carrusel-productos  {
+    height: 150px;
+    margin-bottom: 100px!important;
+    text-align: center;
+
+    /* padding-bottom: 300px!important; */
 }
 
 
 .borde {
     box-shadow: inset -3px 0px 0px 0px #7c2a15;
-    padding: 10px;
+    margin: 50px auto;
     font-size: 20px;
     font-weight: 700;
+    width: 250px;
+    
 }
 
+.arreglo1 {
+    position: relative;
+}
 
-/* .carrusel-productos {
-    min-height: 400px!important;
-    max-height: 400px!important;
-
-} */
 
 /* Fin de la Tercera Seccion */
 
@@ -243,7 +258,7 @@ section
 .cuarta-seccion h3 {
     font-weight: 700;
     display: inline;
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
     color: white;
 }
 
@@ -318,6 +333,22 @@ section
 /* Inicio del Footer  */
 
 
+footer .horarios  {
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 #derechos {
 	background-color: #050033;
 	padding: 0;
@@ -349,6 +380,25 @@ section
 	margin-top: 4px;
 }
 /* Mobile */
+.pie .row p {
 
+    font-size: 1.6rem;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    box-shadow: 0px 3px 0px 0px #7c2a15;
+    /* margin: 10px; */
+}
+
+.pie h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.quinta-seccion .pie .mapa {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 /* Fin del Footer*/

@@ -76,6 +76,12 @@
      
     }
 
+.marcaLoogo {
+    width: 150px;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
 
     /* Cuarta Seccion */
 
@@ -110,6 +116,12 @@
         
     }
 
+
+    .quinta-seccion .pie .mapa {
+        margin: auto 0px!important;
+        width: 100%;
+        padding: auto 0px   ;
+    }
 
 }
 
