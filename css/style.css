@@ -188,6 +188,9 @@ section
     background-size: cover;
     /* height: 100%; */
     opacity: 0.9;
+    border-bottom: 4px solid #e89128;
+    border-top: 4px solid #e89128;
+    
 }
 
 .segunda-seccion p{
@@ -208,7 +211,12 @@ section
 /* Inicio de la Tercera Seccion */
 
 
-
+.fondo-degradado4 {
+    background: url("../img/fondo/fondoGradianteSVG.svg") ;
+    background-size: cover;
+    /* height: 100%; */
+    opacity: 0.9;
+}
 
 .tercera-seccion h3 {
     box-shadow: inset 3px 0px 0px 0px black;
