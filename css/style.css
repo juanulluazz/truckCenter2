@@ -183,7 +183,8 @@ section
 }
 .fondo-degradado {
     /* z-index: 2; */
-    background: url("../img/fondo/fondoGradianteSVG.svg") ;
+    /* background: url("../img/fondo/fondoGradianteSVG.svg") ; */
+    background-color: rgba(49, 52, 60, 0.9);
     background-size: cover;
     /* height: 100%; */
     opacity: 0.9;
