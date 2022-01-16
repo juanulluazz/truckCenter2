@@ -117,8 +117,18 @@
     }
 
 
+    .quinta-seccion h3 {
+        text-align: start;
+        font-size: 1.5rem;
+    }
+
+    .quinta-seccion p {
+        text-align: start;
+        font-size: 1rem;
+    }
+
     .quinta-seccion .pie .mapa {
-        margin: auto 0px!important;
+        margin: 10px 0px!important;
         width: 100%;
         padding: auto 0px   ;
     }
@@ -128,6 +138,6 @@
 
 @media(max-width: 1000px) {
     .ocultar {
-        display: none;
+        display: none!important;
     }
 }

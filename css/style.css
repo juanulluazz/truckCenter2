@@ -315,6 +315,7 @@ section
     font-weight: 700;
     line-height: 100%;    
     box-shadow: 0px 10px 10px -6px black;
+    transition: 0.2s;
 }
 
 .caja p {
@@ -323,6 +324,7 @@ section
 
 .caja:hover {
     transform: scale(1.25);
+    transition: 0.4s;
 }
 
 
@@ -332,18 +334,49 @@ section
 
 /* Inicio del Footer  */
 
-
-footer .horarios  {
+.pie h3 {
+    color: black;
+}
+.pie .horarios  {
     color: black;
     font-weight: bold;
 }
 
 
 
+.pie .row p {
+
+    font-size: 1.6rem;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    box-shadow: 0px 3px 0px 0px #7c2a15;
+    /* margin: 10px; */
+}
+
+.pie h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.quinta-seccion .pie .mapa {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 10px 10px -6px black;
+    background: #e89128;
+    border-radius: 16px;
+    transition: 0.5s;
+
+}
 
 
 
-
+.quinta-seccion .pie .mapa:hover {
+    transform: scale(1.10);
+    background-color: #7c2a15;
+    transition: 0.5s;
+}
 
 
 
@@ -380,25 +413,5 @@ footer .horarios  {
 	margin-top: 4px;
 }
 /* Mobile */
-.pie .row p {
-
-    font-size: 1.6rem;
-    color: black;
-    display: inline-flex;
-    align-items: center;
-    box-shadow: 0px 3px 0px 0px #7c2a15;
-    /* margin: 10px; */
-}
-
-.pie h3 {
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.quinta-seccion .pie .mapa {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
 
 /* Fin del Footer*/
