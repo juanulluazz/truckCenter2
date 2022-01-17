@@ -210,6 +210,15 @@ section
 
 /* Inicio de la Tercera Seccion */
 
+.tercera-seccion .llantas img {
+ padding-left: 40px;
+ 
+}
+
+.marcaAmarilla {
+    box-shadow: inset 3px 0px 0px 0px rgba(232, 145, 40, 1)!important;
+
+}
 
 .fondo-degradado4 {
     background: url("../img/fondo/fondoGradianteSVG.svg") ;
@@ -260,14 +269,23 @@ section
 
 /* Inicio de la Cuarta Seccion */
 
+.cuarta-seccion {
+    margin-bottom: 3px;
+}
+
 .cuarta-seccion p{
     color: black;
+    font-size: 1.2rem;
+    
+
+   
 }
 
 .cuarta-seccion h3 {
+    font-size: 2rem;
     font-weight: 700;
     display: inline;
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
     color: white;
 }
 
@@ -286,8 +304,8 @@ section
     /* z-index: 2; */
     background:  rgba(198, 141, 72, 0.9);
     background-size: cover;
-    border: 3px solid #7c2a15;
-    box-shadow: 0px 10px 10px -6px black!;    
+    border: 2px solid #7c2a15;
+    box-shadow: 0px 4px 10px #333!important;   
 
 }
 
@@ -343,9 +361,7 @@ section
 
 /* Inicio del Footer  */
 
-.pie h3 {
-    color: black;
-}
+
 .pie .horarios  {
     color: black;
     font-weight: bold;
@@ -359,11 +375,13 @@ section
     color: black;
     display: inline-flex;
     align-items: center;
-    box-shadow: 0px 3px 0px 0px #7c2a15;
+    box-shadow: 0px 2px 0px 0px #7c2a15;
     /* margin: 10px; */
 }
 
 .pie h3 {
+    color: black;
+
     font-size: 2rem;
     font-weight: bold;
 }
