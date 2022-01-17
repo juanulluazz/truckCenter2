@@ -94,7 +94,8 @@
 
     .cuarta-seccion .boton2  button{
         margin: none;
-        text-align: none;
+        text-align: start;
+        padding-right: 0px!important;
         
     }
 
