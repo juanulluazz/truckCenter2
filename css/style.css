@@ -9,12 +9,20 @@ html
     box-sizing: inherit; 
 }
 
+@font-face{
+    font-family:"rbno31-medium";
+    src:url("https://dafonttop.com/wp-data/r/488/8488/file/RBNo3.1-Medium.otf") format("woff"),
+    url("https://dafonttop.com/wp-data/r/488/8488/file/RBNo3.1-Medium.otf") format("opentype"),
+    url("https://dafonttop.com/wp-data/r/488/8488/file/RBNo3.1-Medium.otf") format("truetype");
+}
+
 
 body {
     padding: 0;
     margin: 0;
     line-height: 1.6;
-    font-family: 'Rubik', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+    font-family:  'Rubik', sans-serif;
 }
 
 /* seccion de Encabezado */
@@ -60,6 +68,8 @@ header {
     
     transition: 0.1s;
     color: white;
+    font-family:  'rbno31-medium';
+
     
 }
 #navbarSupportedContent a:hover
