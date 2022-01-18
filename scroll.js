@@ -1,5 +1,6 @@
 //ScrollTrigger
-const box = document.getElementById('#ventajas-parrafo')
+// const box = document.getElementById('#ventajas-parrafo')
+
 
 
 
@@ -13,7 +14,20 @@ const tl = gsap.timeline({
     scrollTrigger: {
       trigger: '.contenedor-animacion',
       start: 'top center',
+      // end: ()=> '+=',
+      // markers: true,
     },
+});
+
+
+const pl = gsap.timeline({
+  repeat: 0,
+  scrollTrigger: {
+    trigger: '.animacion-tercera',
+    start: 'top center',
+    end: ()=> '+=',
+    // markers: true,
+  },
 });
 
 
@@ -32,7 +46,7 @@ gsap.from('.boton2', {
       trigger: '.disparadorBoton2',
         start: "top center",
       end: ()=> '+=',
-      markers: true,
+      // markers: true,
     },
     y: 50,
     opacity: 0,
@@ -40,48 +54,15 @@ gsap.from('.boton2', {
 
   });
 
-  gsap.from('.scrollPrueba3', {
-    scrollTrigger: {
-      trigger: '.detonadorEifs',
-        start: "top center",
-      end: ()=> '+=',
-      // markers: true,
-    },
-    x: -50,
-    opacity: 0,
-    duration: 1,
-
-  });
-  gsap.from('.scrollPrueba2', {
-    scrollTrigger: {
-      trigger: '.detonadorEifs2',
-        start: "top center",
-      end: ()=> '+=',
-      // markers: true,
-    },
-    x: -50,
-    opacity: 0,
-    duration: 1,
-  });
 
 
 
-      // tl.from('.contenedor-animacion', {
-      //   y: '50%',
-      //   opacity: 0,
-      //   duration: 1,
-      //   ease: Power4.easeOut,
-      // }
-      // );
-  
 
-    //   let dos = gsap.to(".animacion", {y:-200}),
-    //   at = ScrollTrigger.create({
-    //       trigger: ".trigger",
-    //       start: "top center",
-    //       end: "+=50",
-    //       animation: tween
-    //     });
+
+// Lineas de tiempos
+
+
+
 
         tl.from('.animacion1', {
             // scrollTrigger: {
@@ -90,70 +71,242 @@ gsap.from('.boton2', {
             // },
             y: 100,
             opacity: 0,
-            duration: 0.8,
+            duration: 1.5,
             stagger: .5,
     
-          },''
-          ).from('.animacion2', {
-            // scrollTrigger: {
-            //   trigger: '.animacion',
-            //   start: 'top center',
-            // },
-            y: 100,
-            opacity: 0,
-            duration: 0.8,
-            stagger: .5,
+          },
+          '-=1');
+
+
+          
+        tl.from('.animacion2', {
+          // scrollTrigger: {
+          //   trigger: '.contenedor-animacion',
+          //   start: 'top center',
+          // },
+          y: 100,
+          opacity: 0,
+          duration: 1.5,
+          stagger: .5,
+  
+        },
+        '-=1');
+
+          
+        
+        tl.from('.animacion3', {
+          // scrollTrigger: {
+          //   trigger: '.contenedor-animacion',
+          //   start: 'top center',
+          // },
+          y: 100,
+          opacity: 0,
+          duration: 1.5,
+          stagger: .5,
+  
+        },
+        '-=1');
+ 
+        tl.from('.animacion4', {
+          // scrollTrigger: {
+          //   trigger: '.contenedor-animacion',
+          //   start: 'top center',
+          // },
+          y: 100,
+          opacity: 0,
+          duration: 1.5,
+          stagger: .5,
+  
+        },
+        '-=1');
+
+
+        tl.from('.animacion5', {
+          // scrollTrigger: {
+          //   trigger: '.contenedor-animacion',
+          //   start: 'top center',
+          // },
+          y: 100,
+          opacity: 0,
+          duration: 1.5,
+          stagger: .5,
+  
+        },
+        '-=1');
+
+
+
+// linea-pl
+
+
+pl.from('.animacion-p1', {
+
+  x: -100,
+  opacity: 0,
+  duration: 1.5,
+  stagger: .5,
+
+},
+'-=1');
+
+pl.from('.animacion-p0', {
+
+  opacity: 0,
+  duration: 1.5,
+  stagger: .5,
+
+},
+'-=0.5');
+
+
+
+pl.from('.animacion-p2', {
+
+x: +100,
+opacity: 0,
+duration: 1.5,
+stagger: .5,
+
+},
+'-=1');
+
+pl.from('.animacion-p02', {
+
+  opacity: 0,
+  duration: 1.5,
+  stagger: .5,
+
+},
+'-=0.5');
+
+
+
+pl.from('.animacion-p3', {
+x: +100,
+opacity: 0,
+duration: 1.5,
+stagger: .5,
+
+},
+'-=1');
+
+pl.from('.animacion-p03', {
+
+opacity: 0,
+duration: 1.5,
+stagger: .5,
+
+},
+'-=0.5');
+
+pl.from('.animacion-pr1', {
+  x: -100,
+  opacity: 0,
+  duration: 1.5,
+  stagger: .5,
+  
+  },
+  '-=0.5');
+
+
+
+pl.from('.animacion-p4', {
+// scrollTrigger: {
+//   trigger: '.contenedor-animacion',
+//   start: 'top center',
+// },
+x: +100,
+opacity: 0,
+duration: 1.5,
+stagger: .5,
+
+},
+'-=0.5');
+
+
+
+
+
+pl.from('.animacion-p5', {
+  // scrollTrigger: {
+  //   trigger: '.contenedor-animacion',
+  //   start: 'top center',
+  // },
+  x: -100,
+  opacity: 0,
+  duration: 1.5,
+  stagger: .5,
+  
+  },
+  '-=0.5');
+
+  pl.from('.animacion-p6', {
+    // scrollTrigger: {
+    //   trigger: '.contenedor-animacion',
+    //   start: 'top center',
+    // },
+    x: -100,
+    opacity: 0,
+    duration: 1.5,
+    stagger: .5,
     
-          },'-=0.8' 
-          ).from('.animacion3', {
-            // scrollTrigger: {
-            //   trigger: '.animacion',
-            //   start: 'top center',
-            // },
-            y: 100,
-            opacity: 0,
-            duration: 0.8,
-            stagger: .6,
+    },
+    '-=0.5');
+
+
     
-        },'-=0.8' ).from('.animacion4', {
-            // scrollTrigger: {
-            //   trigger: '.animacion',
-            //   start: 'top center',
-            // },
-            y: 100,
-            opacity: 0,
-            duration: 0.8,
-            stagger: .6,
+  pl.from('.animacion-p7', {
+    // scrollTrigger: {
+    //   trigger: '.contenedor-animacion',
+    //   start: 'top center',
+    // },
+    x: -100,
+    opacity: 0,
+    duration: 1.5,
+    stagger: .5,
     
-        },'-=0.8' ).from('.animacion5', {
-            // scrollTrigger: {
-            //   trigger: '.animacion',
-            //   start: 'top center',
-            // },
-            y: 100,
-            opacity: 0,
-            duration: 0.8,
-            stagger: .6,
+    },
+    '-=0.5');
+
     
-        },'-=0.8' ).from('.animacion6', {
-            // scrollTrigger: {
-            //   trigger: '.animacion',
-            //   start: 'top center',
-            // },
-            y: 100,
-            opacity: 0,
-            duration: 0.8,
-            stagger: .6,
+  pl.from('.animacion-p8', {
+    // scrollTrigger: {
+    //   trigger: '.contenedor-animacion',
+    //   start: 'top center',
+    // },
+    x: +100,
+    opacity: 0,
+    duration: 1.5,
+    stagger: .5,
     
-        },'-=0.8' ).from('.animacion7', {
-            // scrollTrigger: {
-            //   trigger: '.animacion',
-            //   start: 'top center',
-            // },
-            y: 100,
-            opacity: 0,
-            duration: 0.8,
-            stagger: .6,
-    
-        },'-=0.2' );
+    },
+    '-=0.5');
+    pl.from('.animacion-p9', {
+      // scrollTrigger: {
+      //   trigger: '.contenedor-animacion',
+      //   start: 'top center',
+      // },
+      x: -100,
+      opacity: 0,
+      duration: 1.5,
+      stagger: .5,
+      
+      },
+      '-=0.5');
+      pl.from('.animacion-p10', {
+        // scrollTrigger: {
+        //   trigger: '.contenedor-animacion',
+        //   start: 'top center',
+        // },
+        x: +100,
+        opacity: 0,
+        duration: 1.5,
+        stagger: .5,
+        
+        },
+        '0.5');
+
+
+
+
 
