@@ -20,15 +20,15 @@ const tl = gsap.timeline({
 });
 
 
-const pl = gsap.timeline({
-  repeat: 0,
-  scrollTrigger: {
-    trigger: '.animacion-tercera',
-    start: 'top center',
-    end: ()=> '+=',
-    // markers: true,
-  },
-});
+// const pl = gsap.timeline({
+//   repeat: 0,
+//   scrollTrigger: {
+//     trigger: '.animacion-tercera',
+//     start: 'top center',
+//     end: ()=> '+=',
+
+//   },
+// });
 
 
 
@@ -139,172 +139,150 @@ gsap.from('.boton2', {
 // linea-pl
 
 
-pl.from('.animacion-p1', {
+// pl.from('.animacion-p1', {
 
-  x: -100,
-  opacity: 0,
-  duration: 1.5,
-  stagger: .5,
+//   x: -100,
+//   opacity: 0,
+//   duration: 1.5,
+//   stagger: .5,
 
-},
-'-=1');
-
-pl.from('.animacion-p0', {
-
-  opacity: 0,
-  duration: 1.5,
-  stagger: .5,
-
-},
-'-=0.5');
-
-
-
-pl.from('.animacion-p2', {
-
-x: +100,
-opacity: 0,
-duration: 1.5,
-stagger: .5,
-
-},
-'-=1');
-
-pl.from('.animacion-p02', {
-
-  opacity: 0,
-  duration: 1.5,
-  stagger: .5,
-
-},
-'-=0.5');
-
-
-
-pl.from('.animacion-p3', {
-x: +100,
-opacity: 0,
-duration: 1.5,
-stagger: .5,
-
-},
-'-=1');
-
-pl.from('.animacion-p03', {
-
-opacity: 0,
-duration: 1.5,
-stagger: .5,
-
-},
-'-=0.5');
-
-pl.from('.animacion-pr1', {
-  x: -100,
-  opacity: 0,
-  duration: 1.5,
-  stagger: .5,
-  
-  },
-  '-=0.5');
-
-
-
-pl.from('.animacion-p4', {
-// scrollTrigger: {
-//   trigger: '.contenedor-animacion',
-//   start: 'top center',
 // },
-x: +100,
-opacity: 0,
-duration: 1.5,
-stagger: .5,
+// '-=1');
 
-},
-'-=0.5');
+// pl.from('.animacion-p0', {
+
+//   opacity: 0,
+//   duration: 1.5,
+//   stagger: .5,
+
+// },
+// '-=0.5');
 
 
 
+// pl.from('.animacion-p2', {
+
+// x: +100,
+// opacity: 0,
+// duration: 1.5,
+// stagger: .5,
+
+// },
+// '-=1');
+
+// pl.from('.animacion-p02', {
+
+//   opacity: 0,
+//   duration: 1.5,
+//   stagger: .5,
+
+// },
+// '-=0.5');
 
 
-pl.from('.animacion-p5', {
-  // scrollTrigger: {
-  //   trigger: '.contenedor-animacion',
-  //   start: 'top center',
-  // },
-  x: -100,
-  opacity: 0,
-  duration: 1.5,
-  stagger: .5,
+
+// pl.from('.animacion-p3', {
+// x: +100,
+// opacity: 0,
+// duration: 1.5,
+// stagger: .5,
+
+// },
+// '-=1');
+
+// pl.from('.animacion-p03', {
+
+// opacity: 0,
+// duration: 1.5,
+// stagger: .5,
+
+// },
+// '-=0.5');
+
+// pl.from('.animacion-pr1', {
+//   x: -100,
+//   opacity: 0,
+//   duration: 1.5,
+//   stagger: .5,
   
-  },
-  '-=0.5');
-
-  pl.from('.animacion-p6', {
-    // scrollTrigger: {
-    //   trigger: '.contenedor-animacion',
-    //   start: 'top center',
-    // },
-    x: -100,
-    opacity: 0,
-    duration: 1.5,
-    stagger: .5,
-    
-    },
-    '-=0.5');
+//   },
+//   '-=0.5');
 
 
+
+// pl.from('.animacion-p4', {
+
+// x: +100,
+// opacity: 0,
+// duration: 1.5,
+// stagger: .5,
+
+// },
+// '-=0.5');
+
+
+
+
+
+// pl.from('.animacion-p5', {
+
+//   x: -100,
+//   opacity: 0,
+//   duration: 1.5,
+//   stagger: .5,
+  
+//   },
+//   '-=0.5');
+
+//   pl.from('.animacion-p6', {
+
+//     x: -100,
+//     opacity: 0,
+//     duration: 1.5,
+//     stagger: .5,
     
-  pl.from('.animacion-p7', {
-    // scrollTrigger: {
-    //   trigger: '.contenedor-animacion',
-    //   start: 'top center',
-    // },
-    x: -100,
-    opacity: 0,
-    duration: 1.5,
-    stagger: .5,
-    
-    },
-    '-=0.5');
+//     },
+//     '-=0.5');
+
 
     
-  pl.from('.animacion-p8', {
-    // scrollTrigger: {
-    //   trigger: '.contenedor-animacion',
-    //   start: 'top center',
-    // },
-    x: +100,
-    opacity: 0,
-    duration: 1.5,
-    stagger: .5,
+//   pl.from('.animacion-p7', {
+
+//     x: -100,
+//     opacity: 0,
+//     duration: 1.5,
+//     stagger: .5,
     
-    },
-    '-=0.5');
-    pl.from('.animacion-p9', {
-      // scrollTrigger: {
-      //   trigger: '.contenedor-animacion',
-      //   start: 'top center',
-      // },
-      x: -100,
-      opacity: 0,
-      duration: 1.5,
-      stagger: .5,
+//     },
+//     '-=0.5');
+
+    
+//   pl.from('.animacion-p8', {
+
+//     x: +100,
+//     opacity: 0,
+//     duration: 1.5,
+//     stagger: .5,
+    
+//     },
+//     '-=0.5');
+//     pl.from('.animacion-p9', {
+
+//       x: -100,
+//       opacity: 0,
+//       duration: 1.5,
+//       stagger: .5,
       
-      },
-      '-=0.5');
-      pl.from('.animacion-p10', {
-        // scrollTrigger: {
-        //   trigger: '.contenedor-animacion',
-        //   start: 'top center',
-        // },
-        x: +100,
-        opacity: 0,
-        duration: 1.5,
-        stagger: .5,
+//       },
+//       '-=0.5');
+//       pl.from('.animacion-p10', {
+
+//         x: +100,
+//         opacity: 0,
+//         duration: 1.5,
+//         stagger: .5,
         
-        },
-        '0.5');
+//         });
 
 
 

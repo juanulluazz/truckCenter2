@@ -5,11 +5,11 @@ $(window).scroll(function(event) {
     if(scrollTop >= 50 ){
     //   document.getElementById('test').style.opacity='0.5';
 
-      document.getElementById('nav-scroll').style.backgroundColor='rgba(124, 42, 21, 0.9)';
+      document.getElementById('nav-truck').style.backgroundColor='rgba(124, 42, 21, 0.9)';
     }
   
    if(scrollTop <= 50 ){
-      document.getElementById('nav-scroll').style.backgroundColor='#7c2a15'
+      document.getElementById('nav-truck').style.backgroundColor='#7c2a15';
 
     }
   
