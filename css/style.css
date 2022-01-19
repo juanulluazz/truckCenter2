@@ -10,13 +10,17 @@ html
     box-sizing: inherit; 
 }
 
-/* @font-face{
-    font-family:"rbno31-medium";
-    src:url("https://dafonttop.com/wp-data/r/488/8488/file/RBNo3.1-Medium.otf") format("woff"),
-    url("https://dafonttop.com/wp-data/r/488/8488/file/RBNo3.1-Medium.otf") format("opentype"),
-    url("https://dafonttop.com/wp-data/r/488/8488/file/RBNo3.1-Medium.otf") format("truetype");
-} */
-
+@font-face {
+    font-family: "rbno31-medium";
+    src: url("../fuentes/RBNo3.1-Medium.otf");
+}
+@font-face {
+    font-family: "rbno31-light";
+    src: url("../fuentes/RBNo3.1-Light.otf");
+}
+@font-face {
+    font-family: "rbno31-bold"; src: url('../fuentes/RBNo3.1-Bold.otf');
+}
 
 body {
    
@@ -24,7 +28,7 @@ body {
     margin: 0;
     line-height: 1.6;
     /* font-family: 'Rubik', sans-serif; */
-    font-family:  'Rubik', sans-serif;
+    font-family: "rbno31-light", 'Rubik', sans-serif;
 }
 
 /* seccion de Encabezado */
@@ -41,8 +45,9 @@ header {
 .logo {
     color: #1a1e2d!important;
     font-size: xx-large;
-    font-weight: 600;
+    font-family: rbno31-bold, 'Rubik', sans-serif ;
     letter-spacing: 1px;
+
 
 }
 
@@ -70,7 +75,7 @@ header {
     
     transition: 0.1s;
     color: white;
-    font-family:  'rbno31-medium';
+    font-family:  'rbno31-medium','Rubik', sans-serif ;;
 
     
 }
@@ -110,7 +115,7 @@ section
 }
 
 .primera-seccion .logo-img{
-    display: none;
+    display: none; 
 }
 
 .contenedor-primera  {
@@ -131,11 +136,12 @@ section
 
 .carrusel p {
     overflow: hidden;
-
+    font-family: 'Rubik', sans-serif ;;
+    font-weight: 700;
     margin: auto 0.5em;
     padding: 15px 4rem;
-    font-size: x-large;
-    font-weight: 600;
+    font-size: 1.4rem;
+    
         -webkit-text-fill-color: white;
         -webkit-text-stroke: 1px black ;
         transition: 0.5s;
@@ -158,8 +164,11 @@ section
 }
 
 #carouselExampleSlidesOnly p {
+    
     font-size: x-large;
-    font-weight: 600;
+    font-family: 'Rubik', sans-serif ;
+    font-weight: 700;
+
     -webkit-text-fill-color: white;
     -webkit-text-stroke: 1px black ;
   /* background-color: red; */
@@ -240,6 +249,7 @@ section
 }
 
 .tercera-seccion h3 {
+    font-family: rbno31-medium,'Rubik', sans-serif ;
     box-shadow: inset 3px 0px 0px 0px black;
     padding: 10px;
     color: black;
@@ -288,12 +298,16 @@ section
 .cuarta-seccion p{
     color: black;
     font-size: 1.2rem;
+    font-family: rbno31-bold,'Rubik', sans-serif ;
+    line-height: 100%;
     
 
    
 }
 
 .cuarta-seccion h3 {
+    font-family: rbno31-medium, 'Rubik', sans-serif ;
+
     font-size: 2rem;
     font-weight: 700;
     display: inline;
@@ -304,7 +318,7 @@ section
 
 .cuarta-seccion .boton2 button {
     padding: 20px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family:  rbno31-medium,'Noto ', sans-serif;
     color: #e89128;
     font-weight: 700;
     font-size: xx-large;
@@ -352,6 +366,7 @@ section
     width: 200px;
     padding-top: 20px;
     color: white;
+    font-family: rbno31-medium'Rubik', sans-serif ;
     font-weight: 700;
     line-height: 100%;    
     box-shadow: 0px 10px 10px -6px black;
@@ -377,7 +392,8 @@ section
 
 .pie .horarios   {
     color: black;
-    font-weight: bold;
+    font-family: rbno31-medium,'Rubik', sans-serif ;
+    
 }
 
 .pie .row .estamos p {
@@ -412,7 +428,8 @@ section
     color: black;
 
     font-size: 2rem;
-    font-weight: bold;
+    font-family: rbno31-bold'Rubik', sans-serif ;
+
 }
 
 .quinta-seccion .pie .mapa {
