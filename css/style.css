@@ -231,7 +231,12 @@ section
 
 /* Inicio de la Tercera Seccion */
 
+.tercera-seccion {
+    overflow: hidden;
+}
+
 .tercera-seccion .llantas img {
+
  padding-left: 40px;
  
 }
@@ -282,8 +287,15 @@ section
     
 }
 
-.arreglo1 {
-    position: relative;
+
+.lala img{
+    /* background-color: red; */
+    padding: 20px 35px;
+}
+
+.lala2 img{
+    /* background-color: red; */
+    padding: 20px 10px;
 }
 
 
