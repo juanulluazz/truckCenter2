@@ -1,7 +1,12 @@
 //ScrollTrigger
-// const box = document.getElementById('#ventajas-parrafo')
+
+const bateria = document.getElementById('bateria');
+console.log(bateria);
 
 
+if (screen.width < 1024) {
+  bateria.classList.toggle('animacion-p8');
+}
 
 
 
