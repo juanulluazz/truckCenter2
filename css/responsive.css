@@ -103,8 +103,12 @@
 
     /* Quinta Seccion */
 
+    .quinta-seccion {
+        overflow: hidden;
+    }
     .fondo-degradado3  {
         padding: 0px!important;
+
     }
 
     .quinta  p{
@@ -121,7 +125,7 @@
     }
 
     .caja {
-        overflow:hidden;
+        
         width: 100%;
         margin-top: 50px;
         
