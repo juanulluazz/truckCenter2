@@ -70,14 +70,18 @@
     
    }
 
-   .contacto-nav p {
+   .contacto-nav a {
        font-size: 0.7rem;
        margin: auto;
-       color: white;
-       
+       color: white!important;
+       text-decoration: none;
 
     font-family:  'Rubik', sans-serif;
     
+   }
+
+   .contacto-nav a:hover {
+        text-decoration: none!important;
    }
 
 
