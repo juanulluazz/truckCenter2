@@ -25,16 +25,16 @@
 <!-- Inicio del navegador -->
 
     <header class="  "  id="nav-truck">    
-        <nav class="container  navbar navbar-expand-lg navbar-dark">
+        <nav class="container  navbar navbar-expand-lg navbar-dark" >
 
           <!-- <a href="index.html" > <img class="img-fluid logo-img " width="64" height="32" src="img/logo/truckCenterSVG.svg" alt="Logo Truck Center"></a> -->
-          <a class="navbar-brand  logo text-start d-lg-none" href="index.html">TRUCK CENTER</a>
-
-          <a href="index.html" > <img class="img-fluid logo-img d-none d-lg-block " width="64" height="32" src="img/logo/truckCenterSVG.svg" alt="Logo Truck Center"></a>
-          <a class="navbar-brand  logo text-start d-none d-lg-block"  href="index.html">TRUCK CENTER</a>
+          <!-- <a class="navbar-brand  logo text-start d-lg-none" href="index.html">TRUCK CENTER</a> -->
+          
+          <a href="index.html" > <img class="img-fluid logo-img ms-2 ps-2 " width="64" height="42" src="img/logo/truckCenterSVG.svg" alt="Logo Truck Center"></a>
+          <a class="navbar-brand  logo text-start "  href="index.html">TRUCK CENTER</a>
 
             
-            <button class="navbar-toggler me-3 ham  "  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ham  "  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <!-- <span class="navbar-toggler-icon "></span> -->
                 
                   <span class="br-1"></span>
@@ -44,21 +44,35 @@
             </button>
 
             <div class="collapse navbar-collapse text-end hamburguesa"  id="navbarSupportedContent">
-                <ul class="navbar-nav " style="margin-left: auto;"> 
+                <ul class="navbar-nav py-2 " style="margin-left: auto;"> 
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#inicio">Inicio</a>
+                    <a class="nav-link  " aria-current="page" href="#inicio">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#tercera-seccion" style="margin-left: 50px;">Para tu Vehiculo</a>
+                    <a class="nav-link" href="#tercera-seccion" >Para tu Vehiculo</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#servicios" style="margin-left: 50px;">Servicios</a>
+                    <a class="nav-link" href="#servicios" >Servicios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#contacto" style="margin-left: 50px;">Contacto</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
                   </li>
                 </ul>
 
+
+                <div class="container contacto-nav text-end d-md-none ">
+                  <div class="row ">
+                    <div class="col-6 d-flex justify-content-start ">
+                      <img width="18px" src="img/svg/svgfooter/ubiBlanca.svg" alt="iconoUbicacion">
+                      <p class="px-1 mx-0">Villa Nueva, Mendoza</p>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                      <img width="18px" src="img/svg/svgfooter/celBlanco.svg" alt="telefonoCelular">
+                      <p class="mx-0 px-1">2616-856110</p>
+                    </div>
+              </div>
+                </div>
+                </div>
             </div>
         </nav>
 </header>
@@ -69,71 +83,83 @@
 
 <section class="primera-seccion" id="inicio">
 
-<img class="img-fluid mt-4  d-lg-none logo-img mb-3"  width="120" src="img/logo/truckCenterSVG.svg"  alt="logoTruck">
+
 <!-- Modo Escritorio -->
-<div style="background-color:  rgba(0,0,0,0.2);width: 100%; " class="d-none d-lg-block">
+<div style="background-color:  rgba(255,255,255,0.1);width: 100%; " class="d-none d-lg-block">
   <div  class="contenedor-primera container mb-0 p-3">
 
-    <h2 style="font-size: 3rem;color: white;text-decoration: underline black;font-family: rbno31-bold;" >VENTA DE RESPUESTOS <br > DE CAMION</h2>
+    <h2 style="font-size: 3rem;color: white;text-decoration: underline #1a1e2d;font-family: rbno31-bold;" >VENTA DE NEUMATICOS <br > MULTIMARCAS</h2>
 
 
-    <p style="font-size: xx-large;font-weight: 600;font-family:  rbno31-medium;color: #1a1e2d;" class="p-3">Originales y Alternativos</p>
+    <p style="font-size: xx-large;font-weight: 600;font-family:  'Rubik', sans-serif;color: #1a1e2d;" class="p-3">Originales y Alternativos</p>
 
-    <h2 style="color: white;text-decoration: underline  #eb8d07; text-align: center;font-family: Rubik;font-weight: 600;" class="ms-5">Venta de Neumaticos Multimarcas</h2>
-
+    <div class="text-center"> 
+    <h2 class="p-1" style="color: white; text-align: center;font-family: Rubik;font-weight: 600; display: inline-block;border-bottom: 2px solid #e89128; " class="ms-5">Lubricentro - Lavadero - Detailing</h2>
+  </div>
   </div>
 </div>
 <!-- Modo Responsivo -->
-<div class="d-flex text-center flex-column d-lg-none">
-  <h2 class="my-4" style="color: white;text-decoration: underline black;background-color: rgba(0,0,0,0.2);width: 100%;font-family: rbno31-bold;" >VENTA DE RESPUESTOS <br>  DE CAMION</h2>
+<div class=" d-flex  text-center flex-column d-lg-none" style="width: 100%;">
+
+  <h2 class="py-2 mb-4 " style="margin-top: 60px;color: white;text-decoration: underline #1a1e2d;background-color: rgba(0,0,0,0.2);width: 100%;font-family: rbno31-bold;" >VENTA DE NEUMATICOS <br>  MULTIMARCAS</h2>
 
   <p  class="my-1" style="font-size: x-large;color: #1a1e2d;background-color: rgba(255,255,255,0.4);width: 100%; font-family:  rbno31-medium; " >Originales y Alternativos</p>
 
-  <h2 class="my-4" style="color: white;background-color: rgba(255,255,255,0.1);width: 100%;font-family: Rubik;font-weight: 600;" >Venta de Neumaticos Multimarcas</h2>
+  <div class="my-4 py-2" style="background-color: rgba(255,255,255,0.1);width: 100%; color: white;font-family: 'Rubik', sans-serif;font-weight: 700;font-size: 1.4rem; ">
+    <p class="py-0 m-0">
+      Lubricentro
+    </p>
+    <p class="py-0 m-0">
+      Lavadero
+    </p>
+    <p class="py-0 m-0">
+      Detailing
+    </p>
+  </div>
 </div>
 
 
 
 
 
-  <div class="carrusel d-flex mt-0">
+  <div class="carrusel d-flex py-3 mt-0">
     <p>Camion</p>
     <p>Otr</p>
     <p>Auto</p>
     <p>Camioneta</p>
     <p>Agro</p>
     <p>Bus</p>
-</div>
-
-
-<div id="carouselExampleSlidesOnly" class="carousel slide mb-5 p-auto  d-lg-none" data-bs-ride="carousel">
-  <div class="carousel-inner ">
-    <div class="carousel-item active">
-      <div class="d-flex  justify-content-center">
-        <p>Camion</p>
-        <p>Otr</p>
-        <p>Auto</p>
-      </div>
   </div>
-    <div class="carousel-item ">
-      <div class="d-flex justify-content-center">
-        <p>Camioneta</p>
-        <p>Agro</p>
-        <p>Bus</p>
+  
+  
+  <div id="carouselExampleSlidesOnly" class="carousel slide mb-3 p-auto  d-md-none" data-bs-ride="carousel">
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <div class="d-flex  justify-content-center">
+          <p>Camion</p>
+          <p>Otr</p>
+          <p>Auto</p>
+        </div>
       </div>
+      <div class="carousel-item ">
+        <div class="d-flex justify-content-center">
+          <p>Camioneta</p>
+          <p>Agro</p>
+          <p>Bus</p>
+        </div>
+      </div>
+      
     </div>
-
-</div>
-</div>
-
-
-
-<div class="  mx-auto d-none d-lg-block boton my-4">
-  <button class="btn pe-5"   type="button">Comunicate con nosotros <img class="pe-2" src="img/svg/svgfooter/flechaCTABLANCA.svg" width="64" alt=""><img class="pe-2" src="img/svg/svgfooter/whatsappForCTABUTTON.svg" width="64" alt=""></button>
-</div>
+  </div>
+  
+  
+  
+  <div class="  mx-auto d-none d-lg-block boton my-4">
+    <button class="btn pe- my-5"   type="button">Comunicate con nosotros <img class="mx-4" src="img/svg/flechitaNegra.svg" width="64" alt=""><img class="me-2" src="img/svg/whatNegro.svg" width="64" alt=""></button>
+  </div>
 
 <div class=" py-4 mx-auto d-lg-none boton ">
-  <button class="btn py-3  px-4  "  type="button" style="box-shadow: 0px 10px 30px -6px black;">Comunicate con nosotros </button>
+  <button class="btn py-2  px-4  "  type="button" style="box-shadow: 0px 10px 30px -6px black;">CONTACTANOS <img class="mx-2" src="img/svg/flechitaNegra.svg" width="52" alt=""><img class="p-2" src="img/svg/whatNegro.svg" width="64" alt=""></button>
 </div>
 </section>
 
