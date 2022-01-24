@@ -1,7 +1,6 @@
 @media(max-width: 450px)
 {
 
-   
 
     header {
         background-color: rgba(124, 42, 21, 0.8)!important;
@@ -13,18 +12,99 @@
 
     .logo {
 
+        
         color: white!important;
         font-weight: 600;
-        font-size: x-large;
+        font-size: 1.5rem;
         letter-spacing: 1px;
+        padding-left: 10px;
         
     }
 
-  
-    .hamburguesa li a {
-        color: #e89128!important;
+    header nav {
+        margin: 0;
+        padding: 0!important;
+        
+        
     }
 
+
+
+
+
+   header nav  .navbar-nav{
+       /* background-color: rgba(26, 30, 45, 0.8); */
+       width: 60%;
+        height: 35vh;
+       right: 0;
+       border-radius: 0px 0px 0px 12px;
+
+       
+      
+       
+   }
+
+   #navbarSupportedContent a {
+       transition: none;
+   }
+
+
+   #navbarSupportedContent a:hover
+   {    
+     /* box-shadow: inset 0px -2px 0px 0px #7c2a15; */
+     text-decoration: underline #7c2a15;
+     box-shadow: none;
+     transition: none;
+   }
+   
+
+   
+   .contacto-nav .row {
+    text-align: end;
+    /* background-color: rgba(124, 42, 21, 0.8)!important; */
+
+    padding: 10px;
+    border-bottom: 2px solid rgba(124, 42, 21, 0.9);
+    
+    /* border-style: 2px 0px solid rgba(124, 42, 21, 0.9); */
+    
+   }
+
+   .contacto-nav p {
+       font-size: 0.7rem;
+       margin: auto;
+       color: white;
+       
+
+    font-family:  'Rubik', sans-serif;
+    
+   }
+
+
+   #navbarSupportedContent {
+    background-color: rgba(26, 30, 45, 0.9);
+    
+    font-family: 'Rubik', sans-serif;
+    /* border-radius: 360px 0px 0px 360px; */
+    
+    
+   }
+
+   #navbarSupportedContent a {
+  
+    padding-right: 10px;
+        color: #e89128;
+        margin-left: 0;
+
+    
+    
+   }
+
+
+
+
+
+    /* Primera Seccion */
     
     .primera-seccion {
         height: auto;

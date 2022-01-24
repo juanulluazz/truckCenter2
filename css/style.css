@@ -50,6 +50,9 @@ header {
 
 
 }
+.ham {
+    margin: 8px auto;
+}
 
 
 .ham span {
@@ -64,7 +67,7 @@ header {
 
 #navbarSupportedContent{
     color: white;
-    padding-right: 20px;
+    /* padding-right: 20px; */
     font-weight: 600;
 
     
@@ -72,7 +75,7 @@ header {
 }
 #navbarSupportedContent a 
 {
-    
+    margin-left: 40px;
     transition: 0.1s;
     color: white;
     font-family:  'rbno31-medium','Rubik', sans-serif ;;
@@ -81,7 +84,7 @@ header {
 }
 #navbarSupportedContent a:hover
 {    
-  box-shadow: inset 0px -2px 0px 0px #eb8d07;
+  box-shadow: inset 0px -2px 0px 0px #e89128;
   transition: 0.1s;  
 }
 
@@ -132,6 +135,7 @@ section
     border: 1px solid #7c2a15;
     align-items: center;
     
+    
 }
 
 .carrusel p {
@@ -179,14 +183,17 @@ section
 
 
 .boton button {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: rbno31-medium,'Rubik', sans-serif;
     color: white;
     font-weight: 700;
     font-size: xx-large;
     border-radius: 28px;
     background-color: #e89128;
     border:   2px solid #7c2a15;
-    margin-top: 300px;
+    
+    
+    
+    /* margin-top: 300px; */
 }
 
 
@@ -440,7 +447,7 @@ section
     color: black;
 
     font-size: 2rem;
-    font-family: rbno31-bold'Rubik', sans-serif ;
+    font-family: rbno31-bold, 'Rubik', sans-serif ;
 
 }
 
